@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Stewardship OS Configuration",
+        "description": "Initialize your Node to begin participating in the Mesh.",
+        "data": {
+          "node_id": "Node Identifier",
+          "location": "Node Location"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the node."
+    },
+    "abort": {
+      "already_configured": "This Stewardship Node is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "stewardship_node_state": {
+        "name": "Stewardship Node State"
+      }
+    },
+    "switch": {
+      "stewardship_load_shedder": {
+        "name": "Stewardship Load Shedder"
+      }
+    }
+  }
+}
