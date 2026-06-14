@@ -1,0 +1,56 @@
+# Contributing to Stewardship OS
+
+Thank you for your interest in helping build a resilient, decentralized energy future! We welcome contributions from developers, energy enthusiasts, and anyone passionate about local energy sovereignty.
+
+By contributing to this project, you agree to uphold our core values of **Vitality**, **Reciprocity**, and **Resilience**.
+
+---
+
+## Ways to Contribute
+
+### 1. Code & Features
+We are always looking for improvements to the integration, especially:
+* **Hardware Support:** Adding support for new inverters, battery systems, or energy meters.
+* **Logic Improvements:** Enhancing the `coordinator.py` logic to make smarter energy decisions.
+* **Testing:** Writing unit tests to ensure the system remains stable.
+
+### 2. Documentation
+Clear documentation is as important as code. If you find something confusing in the setup or want to improve the `ARCHITECTURE.md`, please submit a Pull Request.
+
+### 3. Feedback & Bugs
+If you find a bug, please [open an issue](https://github.com/[YOUR_GITHUB_USERNAME]/stewardship-os/issues). Please include:
+* Your hardware setup (Inverter/Battery type).
+* A clear description of the issue.
+* Logs (if possible).
+
+---
+
+## Development Workflow
+
+We follow the standard GitHub "Fork and Pull" model:
+
+1. **Fork** the repository to your own account.
+2. **Clone** your fork locally: `git clone https://github.com/YOUR_USERNAME/stewardship-os.git`
+3. **Create a branch** for your feature: `git checkout -b feature/your-feature-name`
+4. **Code:** Ensure your code is `async`-compatible and follows Home Assistant's development standards.
+5. **Test:** Run your tests locally.
+6. **Push & Pull Request:** Push your branch and open a Pull Request against our `main` branch.
+
+---
+
+## Coding Standards
+
+* **Async First:** Home Assistant is an event-driven, asynchronous system. All I/O operations must use `async/await`.
+* **Type Hinting:** Please use Python type hints to ensure code readability and stability.
+* **Constitution Check:** Before submitting a feature, ask yourself: *"Does this enhance the Node's resilience or reciprocity?"* Code that contradicts the Constitution will not be merged.
+* **Testing:** All new features should ideally be accompanied by a test case in the `/tests` folder.
+
+---
+
+## Code of Conduct
+
+We are committed to providing a friendly, safe, and welcoming environment for all. Please be respectful, constructive, and helpful in all discussions and Pull Requests.
+
+---
+
+*Built for the future of energy sovereignty.*
