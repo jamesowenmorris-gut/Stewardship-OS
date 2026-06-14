@@ -1,0 +1,38 @@
+# --- Python & Virtual Environments ---
+# Compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (Never share these!)
+venv/
+.venv/
+env/
+.env
+
+# --- Home Assistant Specific ---
+# Secret files (CRITICAL: Never commit your passwords/API keys)
+secrets.yaml
+
+# Local database and logs
+home-assistant_v2.db
+*.log
+storage/
+
+# --- IDE & Editor Settings ---
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# --- Operating System Noise ---
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# --- Stewardship OS Build Artifacts ---
+# If you eventually package your integration for others
+dist/
+build/
+*.egg-info/
