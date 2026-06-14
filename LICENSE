@@ -672,3 +672,7 @@ interface could display a "Source" link that leads users to an archive
 of the code.  There are many ways you could offer source, and different
 solutions will be better for different programs; see section 13 for the
 specific requirements.
+
+git add LICENSE
+git commit -m "Add AGPLv3 license to protect the project's open-source philosophy"
+
